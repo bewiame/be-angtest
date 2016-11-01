@@ -9,6 +9,14 @@
           <td>
             <h1>Sample "Hello, World" Application</h1>
             <h2>Including a component1 (with a component2) in a (main) component</h2>
+
+            <!-- feature_test_001 -->
+            <!-- Error message displayed when the errorCount property in the current context is greater than 0. -->
+            <div *ngIf="errorCount > 0" class="error">
+            <h3>Test ngif</h3>
+            {{errorCount}} errors detected
+            </div>
+            <br>
             <my-app1>Loading Component1...</my-app1>
           </td>
         </tr>

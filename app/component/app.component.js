@@ -12,8 +12,13 @@ var core_1 = require('@angular/core');
 var app_component1_1 = require('./app.component1');
 var AppComponent = (function () {
     function AppComponent() {
+        this.errorCount = 0;
     }
     AppComponent.prototype.ngOnInit = function () {
+        this.setError(5);
+    };
+    AppComponent.prototype.setError = function (nbr) {
+        this.errorCount = nbr;
     };
     AppComponent = __decorate([
         core_1.Component({

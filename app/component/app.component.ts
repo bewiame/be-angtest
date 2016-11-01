@@ -12,9 +12,15 @@ import { FriendService } from '../friend/friend.service';
 // Main component
 // include a component1 (with component2)
 export class AppComponent implements OnInit {
-
+    errorCount=0;
     componentName: 'AppComponent';
 
     ngOnInit() {
+      this.setError(5);
     }
+
+    setError(nbr) {
+      this.errorCount=nbr;
+    }
+
   }
