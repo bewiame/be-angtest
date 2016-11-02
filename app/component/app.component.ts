@@ -14,9 +14,16 @@ import { FriendService } from '../friend/friend.service';
 export class AppComponent implements OnInit {
     errorCount=0;
     componentName: 'AppComponent';
+    title = 'My test (For)';
+    heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
+    myHero = this.heroes[0];
 
     ngOnInit() {
       this.setError(5);
+    }
+
+    changeMyHero(num) {
+      this.myHero=this.heroes[num];
     }
 
     setError(nbr) {
