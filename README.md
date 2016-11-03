@@ -13,3 +13,6 @@ Application test in angular2
 
 
 main.ts --> AppComponent --> AppComponent1 --> AppComponent2 --> FriendComponent --> FriendService
+
+
+feature_test_004 : branch from master
