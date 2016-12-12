@@ -13,3 +13,7 @@ Application test in angular2
 
 
 main.ts --> AppComponent --> AppComponent1 --> AppComponent2 --> FriendComponent --> FriendService
+
+feature_test_001
+- test ngif --> AppComponent
+- test ngFor --> AppComponent (+ add button action)
